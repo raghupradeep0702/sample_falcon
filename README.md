@@ -1,7 +1,7 @@
-# Subtask 2: Summing the numbers in each chunk
+# Subtask 3: Aggregating the results
  
 ## Purpose:
-This involves creating a pool of processes using Python's multiprocessing module and distributing the chunks of data across these processes. Each process then calculates the sum of the numbers within its assigned chunk. This parallel processing technique helps to reduce the overall computation time by executing multiple tasks simultaneously.
+After all the processes have completed their tasks of summing the numbers within their respective chunks, this step involves aggregating the results from each process to compute the total sum of all the numbers in the original dataset. The aggregated result provides the final output of the computation process.
  
 ## Instructions:
 1. Install the required dependencies: `pip install multiprocessing`
