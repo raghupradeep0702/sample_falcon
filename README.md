@@ -1,7 +1,7 @@
-# Subtask 1: Dividing the data into chunks
+# Subtask 2: Summing the numbers in each chunk
  
 ## Purpose:
-The code divides a large array of numbers into smaller chunks to distribute them across multiple processes for parallel processing. This is done to efficiently utilize the available computing resources and speed up the computation process.
+This involves creating a pool of processes using Python's multiprocessing module and distributing the chunks of data across these processes. Each process then calculates the sum of the numbers within its assigned chunk. This parallel processing technique helps to reduce the overall computation time by executing multiple tasks simultaneously.
  
 ## Instructions:
 1. Install the required dependencies: `pip install multiprocessing`
